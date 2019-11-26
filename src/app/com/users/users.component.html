@@ -1,0 +1,16 @@
+<p>users works!</p>
+<table *ngIf="user" border="1">
+    <tr>
+        <td>{{user["name"]}}</td>
+        <td>{{user["username"]}}</td>
+        <td>{{user["email"]}}</td>
+        
+    </tr>
+</table>
+<ul>
+
+    <li><a routerLink="user/5">user5</a></li>
+    <li><a routerLink="user/4">user4</a></li>
+    <li><a routerLink="user/3">user3</a></li>
+    <li><a routerLink="user/2">user2</a></li>
+</ul>
