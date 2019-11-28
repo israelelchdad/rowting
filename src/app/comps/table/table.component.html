@@ -1,0 +1,17 @@
+<p>table works!</p>
+<table border="1">
+
+    <tr>
+        <th>name </th>
+        <th> birttyear</th>
+        <th>agbyfunctin</th>
+        <th>agbypipe</th>
+
+    </tr>
+    <tr *ngFor="let p of  pipul">
+        <td appDdddd>{{p.name}}</td>
+        <td>{{p.age}}</td>
+        <td>{{getyomholade(p.age)}}</td>
+        <td>{{p.age |year}}</td>
+    </tr>
+</table>

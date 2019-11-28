@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-users',
@@ -11,7 +11,7 @@ export class UsersComponent implements OnInit {
   user:any;
   private api="https://jsonplaceholder.typicode.com/users/"
 
-  constructor(public http:HttpClient,public act:ActivatedRoute) { }
+  constructor(public http:HttpClient,public act:ActivatedRoute, public router:Router) { }
 
   ngOnInit() {
     this.act.params.subscribe(da=>{

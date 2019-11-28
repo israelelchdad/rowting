@@ -8,6 +8,14 @@ import { IceCremComponent } from './com/ice-crem/ice-crem.component';
 import { IsrealComponent } from './com/isreal/isreal.component';
 import { UsersComponent } from './com/users/users.component';
 import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './com/login/login.component';
+import { ChepComponent } from './comps/chep/chep.component';
+import { BlackchepComponent } from './comps/blackchep/blackchep.component';
+import { WhitechepComponent } from './comps/whitechep/whitechep.component';
+import { BlucheepComponent } from './comps/blucheep/blucheep.component';
+import { TableComponent } from './comps/table/table.component';
+import { YearPipe } from './pips/year.pipe';
+import { DddddDirective } from './dirictivs/ddddd.directive';
 
 @NgModule({
   declarations: [
@@ -15,7 +23,15 @@ import { HttpClientModule } from '@angular/common/http';
     ChocoladComponent,
     IceCremComponent,
     IsrealComponent,
-    UsersComponent
+    UsersComponent,
+    LoginComponent,
+    ChepComponent,
+    BlackchepComponent,
+    WhitechepComponent,
+    BlucheepComponent,
+    TableComponent,
+    YearPipe,
+    DddddDirective
   ],
   imports: [
     BrowserModule,
